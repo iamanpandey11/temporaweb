@@ -1,0 +1,31 @@
+/* Loader.module.css */
+.loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s ease;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+}
+
+.animating {
+    animation: changeGradient 2s linear infinite;
+}
+
+@keyframes changeGradient {
+    0% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+
+    50% {
+        background: linear-gradient(45deg, #2ecc71, #f39c12);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+}

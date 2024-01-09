@@ -1,0 +1,61 @@
+.stopwatchContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stopwatchCircle {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+.stopwatchTime {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stopwatchButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.stopwatchButtons button {
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+}
+
+.stopwatchButtons button:hover {
+    background-color: #45a049;
+}
+
+.recordedTimes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.recordedTimes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recordedTimes li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}

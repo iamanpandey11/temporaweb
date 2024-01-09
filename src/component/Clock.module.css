@@ -1,0 +1,15 @@
+.clockContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clockDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f5f5f5;
+    /* Light theme background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

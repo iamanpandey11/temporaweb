@@ -1,0 +1,203 @@
+/* Timer.module.css
+.timerContainer {
+    /* text-align: center;
+    margin-top: 20px; */
+
+/*   display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #973b3b;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s ease;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+}
+
+
+
+.animating {
+    animation: changeGradient 16s linear infinite;
+}
+
+@keyframes changeGradient {
+    0% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+
+    12.5% {
+        background: linear-gradient(45deg, #2ecc71, #f39c12, #3498db);
+    }
+
+    25% {
+        background: linear-gradient(45deg, #1abc9c, #e74c3c, #3498db);
+    }
+
+    37.5% {
+        background: linear-gradient(45deg, #3498db, #2ecc71, #f39c12);
+    }
+
+    50% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+
+    62.5% {
+        background: linear-gradient(45deg, #2ecc71, #f39c12, #3498db);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #1abc9c, #e74c3c, #3498db);
+    }
+
+    87.5% {
+        background: linear-gradient(45deg, #3498db, #2ecc71, #f39c12);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+}
+
+.timerDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timerInputContainer {
+    margin-bottom: 10px;
+}
+
+.timerInput {
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.timerButtons {
+    margin-top: 10px;
+}
+
+.timerButtons button {
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+.timerButtons button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.timerButtons button:hover:enabled {
+    background-color: #2980b9;
+} */
+
+
+/* Timer.module.css */
+/* Timer.module.css */
+.timerContainer {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #3498db;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    user-select: none;
+    transition: background 1s ease;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+}
+
+.animating {
+    animation: changeGradient 12s linear infinite;
+}
+
+@keyframes changeGradient {
+
+    0%,
+    100% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+
+    12.5% {
+        background: linear-gradient(45deg, #2ecc71, #f39c12, #3498db);
+    }
+
+    25% {
+        background: linear-gradient(45deg, #1abc9c, #e74c3c, #3498db);
+    }
+
+    37.5% {
+        background: linear-gradient(45deg, #3498db, #2ecc71, #f39c12);
+    }
+
+    50% {
+        background: linear-gradient(45deg, #3498db, #e74c3c);
+    }
+
+    62.5% {
+        background: linear-gradient(45deg, #2ecc71, #f39c12, #3498db);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #1abc9c, #e74c3c, #3498db);
+    }
+
+    87.5% {
+        background: linear-gradient(45deg, #3498db, #2ecc71, #f39c12);
+    }
+}
+
+.timerDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timerInputContainer {
+    margin-bottom: 10px;
+}
+
+.timerInput {
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.timerButtons {
+    margin-top: 10px;
+}
+
+.timerButtons button {
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.timerButtons button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.timerButtons button:hover:enabled {
+    background-color: #2980b9;
+}

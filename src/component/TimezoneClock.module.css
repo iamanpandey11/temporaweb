@@ -1,0 +1,21 @@
+/* TimezoneClock.module.css */
+.clockContainer {
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.clockTitle {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.clockTime {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+}
